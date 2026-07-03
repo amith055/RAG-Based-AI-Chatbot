@@ -1,0 +1,17 @@
+Beyond Basic RAG
+
+After we complete the basic application, I'd love to take you into topics that are used in production AI systems:
+
+🔹 Different chunking strategies (Recursive, Semantic, Parent-Child)
+🔹 Choosing chunk size and overlap scientifically
+🔹 Hybrid Search (BM25 + Vector Search)
+🔹 Metadata filtering
+🔹 Multi-document RAG
+🔹 Query rewriting
+🔹 Reranking models
+🔹 Context compression
+🔹 Agentic RAG
+🔹 Conversation memory
+🔹 Evaluating RAG quality (Precision, Recall, Faithfulness)
+🔹 Scaling to millions of documents
+🔹 Production deployment and monitoring
