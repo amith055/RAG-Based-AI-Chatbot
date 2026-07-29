@@ -15,6 +15,7 @@ app.add_middleware(
 )
 
 
+
 @app.get('/')
 def home():
     return {'msg': 'API is working'}
@@ -35,4 +36,6 @@ async def upload_pdf(files: UploadFile = File(...)):
         }
     except Exception as e:
         print("Backend",e)
+
+
 

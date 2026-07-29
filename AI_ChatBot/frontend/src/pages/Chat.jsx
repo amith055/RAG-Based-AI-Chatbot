@@ -36,6 +36,7 @@ const Chat = () => {
             {
                 headers: {
                     "Content-Type": "multipart/form-data",
+                    "Content-Length": formData.getLengthSync(),
                 },
             }
         );
